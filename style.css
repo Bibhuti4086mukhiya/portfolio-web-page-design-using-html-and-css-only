@@ -373,211 +373,99 @@ font-size: 400;
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .skill {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    color: rgb(255, 255, 255);
-    padding: 0px 41px;
+  .main {
+    background-image: url("images/background-image.png");
+    background-color: rgba(23, 22, 22, 0.904);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
   }
 
-  .container-about {
+  .container .nav-flex {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  .container .link li a {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 0 10px;
+  }
+
+  .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
     color: white;
-    padding: 1px 66px;
+    text-align: left;
   }
 
-  .card-image{
-    margin-left: 97px;
+  .grid-child img {
+    background-size: cover;
+    height: 50vh;
+    margin-left: 248px;
+    margin-top: 2px;
+    margin-bottom: -39px;
+  }
+
+  .grid-child .textdiv {
+    margin-top: 57px;
+    margin-left: 32px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+  }
+  .grid-child .textdiv h2 {
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 64px;
+  }
+
+  .grid-child .textdiv .contact-btn {
+    margin-top: 30px;
+    padding: 2px 8px;
+    font-size: 11px;
+    border: 2px solid yellow;
+    color: white;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
   .card-image img {
-    margin-top: 90px;
-    width: 53%;
+    margin-top: 33px;
     border-radius: 20px;
-  }
+     }
 
-  .borderdiv {
-    border: 5px solid yellow;
-    height: 218px;
-    width: 296px;
-    border-radius: 20px;
-    margin-top: -187px;
-    margin-left: 73px;
-  }
+}
 
-  .about {
-    background-color: #1A1A1A;
-    height: auto;
-    width: 100%;
-    color: rgb(255, 255, 255);
-  }
- 
-  .about-right p{
-    width: 100px;
-  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
- 
-  .container .nav-flex {
-    display: flex;
-    margin-left: 20px;
-    /* margin-right: 40px; */
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-  }
-  .container .link li a {
-    text-decoration: none;
-    font-size: 13px;
-    padding: 0 10px;
-  }
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   
-  .grid-child .textdiv {
-    margin-top: 211px;
-    margin-left: 82px;
-    position: absolute;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 9px;
-  }
-.grid-child .textdiv h2 {
-  font-weight: 800;
-font-size: 52px;
-line-height: 127px;
-letter-spacing: 5px;
 }
 
-.grid-child .textdiv .contact-btn {
-  margin-top: 18px;
-  padding: 5px 15px;
-  font-size: 12px;
-  border: 2px solid yellow;
-  color: white;
-  background: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
-.card-image img {
-  margin-top: 67px;
-  height: 200px;
-width :200px;
-border-radius: 20px;
-}
-
-.borderdiv{
-  border: 5px solid yellow;
-  height: 200px;
-  width: 200px;
-  border-radius: 20px;
-  margin-top: -187px;
-    margin-left: 73px;
-}
-.about-right .text p {
-  width: 389.27px;
-  font-weight: 400;
-  font-size: 9px;
-  padding: 11px;
-}
-
-.about-right .text h3 {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 35px;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-}
-
-.container-skill h1 {
-  text-align: center;
-  align-items: center;
-  padding: 20px;
-  font-size: 22px;
-}
-
-.skill {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  color: rgb(255, 255, 255);
-  padding: 8px 60px;
-}
-#myDIV {
-  height: 80vh;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
-  padding: 52px 176px;
-}
-
-.contact {
-  height: 90vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  color: rgb(255, 255, 255);
-  padding: 31px 33px;
-  background-color: rgba(0, 0, 0, 0.932);
-}.contactme h1 {
-  padding: 5px 0 0 32px;
-  background-color: rgba(0, 0, 0, 0.932);
-  color: white;
-}
-
-.icon p{
-  padding-left: 10px;
-}
-
-.icon i{
-font-size: 26px;
-}
-.messageme-btn {
-  margin-top: 40px;
-  padding: 5px 12px;
-  font-size: 15px;
-  border: 2px solid yellow;
-  color: white;
-  background: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.grid-child .textdiv h2 {
-  font-weight: 800;
-  font-size: 52px;
-  line-height: 71px;
-  letter-spacing: 5px;
-}
-
-.contact {
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  color: rgb(255, 255, 255);
-  padding: 31px 33px;
-  background-color: rgba(0, 0, 0, 0.932);
-}
-
-}
